@@ -1,0 +1,89 @@
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.registro-container {
+  width: 700px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 80px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+
+.registro-title {
+  font-size: 28px;
+  color: #0a2342;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.registro-input,
+.registro-select {
+  width: 80%;
+  height: 40px;
+  border: 1px solid #bfbfbf;
+  border-radius: 8px;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+
+}
+
+.registro-input:focus,
+.registro-select:focus {
+  border: 2px solid #ffcc00;
+  background-color: #fffef4;
+}
+
+
+.registro-boton {
+  width: 80%;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffcc00;
+  color: #000;
+ 
+}
+
+.registro-boton:hover {
+  background-color: #e6b800;
+  transform: translateY(-2px);
+}
+
+
+.registro-footer {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+
+
+  .registro-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .registro-input,
+  .registro-select,
+  .registro-btn {
+    width: 90%;
+  
+}
